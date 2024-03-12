@@ -178,9 +178,16 @@
     <Compile Include="Migrations\202403090411359_InitiaModel.designer.cs">
       <DependentUpon>202403090411359_InitiaModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202403120208080_CreateTableCourse.cs" />
+    <Compile Include="Migrations\202403120208080_CreateTableCourse.designer.cs">
+      <DependentUpon>202403120208080_CreateTableCourse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -291,6 +298,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202403090411359_InitiaModel.resx">
       <DependentUpon>202403090411359_InitiaModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403120208080_CreateTableCourse.resx">
+      <DependentUpon>202403120208080_CreateTableCourse.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
